@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="163.85419mm"
+   height="63.221817mm"
+   viewBox="0 0 580.5857 224.01431"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="tx.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4667"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="374.7802"
+     inkscape:cy="446.78178"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1306"
+     inkscape:window-height="798"
+     inkscape:window-x="544"
+     inkscape:window-y="686"
+     inkscape:window-maximized="0"
+     showguides="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(583.15,-693.21226)">
+    <g
+       id="g5215"
+       transform="matrix(0.3,0,0,0.3,-205,563.65357)">
+      <g
+         transform="translate(920,600)"
+         id="g3608">
+        <g
+           id="g3583"
+           transform="translate(-10.201741,0)">
+          <g
+             transform="translate(-118,0)"
+             id="g3497">
+            <rect
+               style="fill:none;stroke:#000000;stroke-width:2.41931868"
+               id="rect3344-3"
+               width="340.0087"
+               height="195.77568"
+               x="-521.9093"
+               y="120.1889" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="-493.22333"
+               y="178.76035"
+               id="text3348-6"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 id="tspan3350-7"
+                 x="-493.22333"
+                 y="178.76035">Output 1</tspan><tspan
+                 sodipodi:role="line"
+                 x="-493.22333"
+                 y="228.76035"
+                 id="tspan3425">  amount</tspan><tspan
+                 sodipodi:role="line"
+                 x="-493.22333"
+                 y="278.76035"
+                 id="tspan3373">  scriptPubKey</tspan><tspan
+                 sodipodi:role="line"
+                 x="-493.22333"
+                 y="328.76035"
+                 id="tspan3375" /></text>
+          </g>
+          <g
+             transform="translate(0,-298.7952)"
+             id="g3488">
+            <rect
+               style="fill:none;stroke:#000000;stroke-width:2.49193382"
+               id="rect3344-3-5"
+               width="393.95306"
+               height="195.16606"
+               x="-1073.9453"
+               y="419.02042" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="-1045.2891"
+               y="477.02338"
+               id="text3348-6-3"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 id="tspan3350-7-5"
+                 x="-1045.2891"
+                 y="477.02338">Input 1</tspan><tspan
+                 sodipodi:role="line"
+                 x="-1045.2891"
+                 y="527.02338"
+                 id="tspan3423">  prevout hash, n</tspan><tspan
+                 sodipodi:role="line"
+                 x="-1045.2891"
+                 y="577.02338"
+                 id="tspan3419">  scriptSig</tspan><tspan
+                 sodipodi:role="line"
+                 x="-1045.2891"
+                 y="627.02338"
+                 id="tspan3373-6" /><tspan
+                 sodipodi:role="line"
+                 x="-1045.2891"
+                 y="677.02338"
+                 id="tspan3375-2" /></text>
+          </g>
+          <g
+             transform="translate(0,-65.669814)"
+             id="g3488-9">
+            <rect
+               style="fill:none;stroke:#000000;stroke-width:2.49193382"
+               id="rect3344-3-5-1"
+               width="393.95306"
+               height="195.16606"
+               x="-1073.9453"
+               y="419.02042" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="-1045.2891"
+               y="477.02338"
+               id="text3348-6-3-2"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 id="tspan3350-7-5-7"
+                 x="-1045.2891"
+                 y="477.02338">Input 1</tspan><tspan
+                 sodipodi:role="line"
+                 x="-1045.2891"
+                 y="527.02338"
+                 id="tspan3423-0">  prevout hash, n</tspan><tspan
+                 sodipodi:role="line"
+                 x="-1045.2891"
+                 y="577.02338"
+                 id="tspan3419-9">  scriptSig</tspan><tspan
+                 sodipodi:role="line"
+                 x="-1045.2891"
+                 y="627.02338"
+                 id="tspan3373-6-3" /><tspan
+                 sodipodi:role="line"
+                 x="-1045.2891"
+                 y="677.02338"
+                 id="tspan3375-2-6" /></text>
+          </g>
+        </g>
+        <rect
+           style="fill:none;stroke:#000000"
+           id="rect3577"
+           width="902.85712"
+           height="594.28577"
+           x="-1148.5714"
+           y="-16.209225" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-894.72095"
+           y="70.362206"
+           id="text3579"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3581"
+             x="-894.72095"
+             y="70.362206"
+             style="font-size:60px">Transaction 2</tspan></text>
+      </g>
+      <g
+         transform="translate(-239.63031,448.5714)"
+         id="g3497-2">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:2.41931868"
+           id="rect3344-3-3"
+           width="340.0087"
+           height="195.77568"
+           x="-521.9093"
+           y="120.1889" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-493.22333"
+           y="178.76035"
+           id="text3348-6-7"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3350-7-59"
+             x="-493.22333"
+             y="178.76035">Output 1</tspan><tspan
+             sodipodi:role="line"
+             x="-493.22333"
+             y="228.76035"
+             id="tspan3425-2">  amount</tspan><tspan
+             sodipodi:role="line"
+             x="-493.22333"
+             y="278.76035"
+             id="tspan3373-2">  scriptPubKey</tspan><tspan
+             sodipodi:role="line"
+             x="-493.22333"
+             y="328.76035"
+             id="tspan3375-8" /></text>
+      </g>
+      <g
+         transform="translate(-121.63031,149.7762)"
+         id="g3488-97">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:2.49193382"
+           id="rect3344-3-5-3"
+           width="393.95306"
+           height="195.16606"
+           x="-1073.9453"
+           y="419.02042" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-1045.2891"
+           y="477.02338"
+           id="text3348-6-3-6"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3350-7-5-1"
+             x="-1045.2891"
+             y="477.02338">Input 1</tspan><tspan
+             sodipodi:role="line"
+             x="-1045.2891"
+             y="527.02338"
+             id="tspan3423-2">  prevout hash, n</tspan><tspan
+             sodipodi:role="line"
+             x="-1045.2891"
+             y="577.02338"
+             id="tspan3419-93">  scriptSig</tspan><tspan
+             sodipodi:role="line"
+             x="-1045.2891"
+             y="627.02338"
+             id="tspan3373-6-1" /><tspan
+             sodipodi:role="line"
+             x="-1045.2891"
+             y="677.02338"
+             id="tspan3375-2-9" /></text>
+      </g>
+      <rect
+         y="432.36218"
+         x="-1260"
+         height="594.28577"
+         width="902.85712"
+         id="rect3577-1"
+         style="fill:none;stroke:#000000" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3579-0"
+         y="518.93359"
+         x="-1006.1495"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:60px"
+           y="518.93359"
+           x="-1006.1495"
+           id="tspan3581-6"
+           sodipodi:role="line">Transaction 1</tspan></text>
+      <g
+         transform="translate(-239.52362,675.99974)"
+         id="g3497-2-3">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:2.41931868"
+           id="rect3344-3-3-2"
+           width="340.0087"
+           height="195.77568"
+           x="-521.9093"
+           y="120.1889" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-493.22333"
+           y="178.76035"
+           id="text3348-6-7-0"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3350-7-59-6"
+             x="-493.22333"
+             y="178.76035">Output 2</tspan><tspan
+             sodipodi:role="line"
+             x="-493.22333"
+             y="228.76035"
+             id="tspan3425-2-1">  amount</tspan><tspan
+             sodipodi:role="line"
+             x="-493.22333"
+             y="278.76035"
+             id="tspan3373-2-5">  scriptPubKey</tspan><tspan
+             sodipodi:role="line"
+             x="-493.22333"
+             y="328.76035"
+             id="tspan3375-8-5" /></text>
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3858"
+         d="m -128.57143,815.21935 -288.57143,80"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+    </g>
+  </g>
+</svg>
