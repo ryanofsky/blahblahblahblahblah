@@ -48,7 +48,7 @@
 - Wed 14 0:30 Serialization
   - Reading and writing ints, bools, strings, maps, vectors, arbitrary objects to/from stream object
   - Layers
-    - CDataStream read & write methods lowest level (https://github.com/bitcoin/bitcoin/blob/master/src/stream.h)
+    - CDataStream read & write methods lowest level (https://github.com/bitcoin/bitcoin/blob/master/src/streams.h)
     - called by ::ser_writedata*, ::ser_readdata* (https://github.com/bitcoin/bitcoin/blob/master/src/serialize.h)
     - called by ::Serialize, ::Unserialize overloads for different types
       - ::Serialize for objects just calls obj.Serialize
