@@ -1,0 +1,80 @@
+- Schedule
+  - https://docs.google.com/spreadsheets/d/1ueqMkzbb4KrlLrKxyINZaViy9XlX6bPv53_Fr1fhwG0/edit#gid=821430761
+- Tue 13 0:15 Wallet
+  - https://github.com/ryanofsky/blahblahblahblahblah/blob/master/bitcoin-wallet/schema.pdf
+    - keys, addresses, transactions, pools
+  - https://github.com/bitcoin/bitcoin/blob/master/src/wallet/wallet.h
+    - CWallet validation interface methods
+  - https://github.com/bitcoin/bitcoin/pull/10973
+    - https://github.com/ryanofsky/bitcoin/blob/pr/wipc-sep/src/interface/chain.h
+- Tue 13 0:15 Qt
+  - Pronounced cute
+  - https://wiki.qt.io/Qt_for_Beginners
+  - https://github.com/bitcoin/bitcoin/blob/master/src/qt/README.md
+  - Basically single threaded
+    - ui thread runnning event loop, calls event handlers
+    - event handlers must return or run nested event loop
+  - https://github.com/bitcoin/bitcoin/pull/10244
+    - https://github.com/ryanofsky/bitcoin/blob/pr/ipc-local/src/interface/node.h
+    - https://github.com/ryanofsky/bitcoin/blob/pr/ipc-local/src/interface/wallet.h
+- Wed 14 0:20 Transaction format
+  - Transaction
+    - Input
+      - OutPoint
+        - hash
+        - n
+      - scriptSig
+      - nSequence
+      - scriptWitness
+    - TxOut
+      - nValue
+      - scriptPubKey
+    - version
+    - locktime
+  - https://github.com/bitcoin/bitcoin/blob/master/src/primitives/transaction.h
+  - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06.asciidoc#tx_in_structure
+  - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06.asciidoc#transaction-outputs
+  - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch07.asciidoc#timelocks
+  - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch07.asciidoc#segregated-witness
+  - https://bitcoin.org/en/developer-reference#raw-transaction-format
+  - https://github.com/bitcoin/bips/blob/master/bip-0144.mediawiki (segwit tx serialization)
+  - https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki (tx version, seq number)
+- Wed 14 0:40 Transaction signing
+  - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06.asciidoc#serialization-of-signatures-der
+  - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06.asciidoc#signature-hash-types-sighash
+  - sighash: can sign 1 input or all inputs, can sign 0, 1 or all outputs
+      - ALL NONE SINGLE: whether all outputs signed, or none, or one output (corresponding to input)
+      - ANYONECANPAY: whether all inputs signed or one input
+- Wed 14 0:30 Serialization
+  - Reading and writing ints, bools, strings, maps, vectors, arbitrary objects to/from stream object
+  - Layers
+    - CDataStream read & write methods lowest level (https://github.com/bitcoin/bitcoin/blob/master/src/stream.h)
+    - called by ::ser_writedata*, ::ser_readdata* (https://github.com/bitcoin/bitcoin/blob/master/src/serialize.h)
+    - called by ::Serialize, ::Unserialize overloads for different types
+      - ::Serialize for objects just calls obj.Serialize
+    - called by CDataStream operator<<, operator>>
+  - No macro magic in any above. Macros only help with making serializable objects
+    - ADD_SERIALIZE_METHODS macro adds obj.Serialize/Unserialize
+    - Serialize/Unserialize call
+      - SerializationOp(stream, CSerActionSerialize())
+      - SerializationOp(stream, CSerActionUnserialize())
+    - SerializationOp calls READWRITE (or manually checks arg to see if reading/writing)
+    - READWRITE calls SerReadWrite overloads
+    - SerReadWrite overloads call ::Serialize or ::Unserialize
+- Thu 15 0:30 Pruning
+  - Skip?
+- Thu 15 0:30 Payment channels
+  - https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki#Bidirectional_Payment_Channels
+- Fri 16 0:30 Lightning onion routing
+- Wed 21 — John: HD Wallet
+- Wed 21 0:30 Wallet BerkeleyDB key value store, data file, environment, logs, flushing
+- Wed 21 0:10 Wallet key types: Regular, watch-only, hd
+- Wed 21 0:10 Wallet key management: Keypools, key metadata, address metadata
+- Wed 21 — Matt: transaction tracking
+- Wed 21 0:10 Wallet rescan
+- Wed 21 0:30 Wallet transaction creation: fee estimation, coin selection, ATMP
+- Wed 21 0:30 Wallet transaction metadata, getbalance, time received, confirmations, IsTrusted
+- Wed 21 0:10 Wallet upgrade
+- Wed 21 0:30 Segwit wallet
+- Wed 21 — Alex: fee estimation, coin selection
+- Wed 21 0:30 Qt code: Send coins dialog, send coins dialog test
