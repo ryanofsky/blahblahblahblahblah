@@ -23,12 +23,19 @@
       - OutPoint
         - hash
         - n
-      - scriptSig
       - nSequence
-      - scriptWitness
+      - scriptSig / scriptWitness
+        - P2PKH:  {signature} {pubkey}
+        - P2SH:   {script}
+        - P2WPKH: 0 {signature} {pubkey}
+        - P2WSH:  {signature} {script}
     - TxOut
       - nValue
       - scriptPubKey
+        - P2PKH:  <OP_DUP OP_HASH160 {pubkey hash} OP_EQUALVERIFY OP_CHECKSIG>
+        - P2SH:   HASH160 {20 byte script hash} EQUAL
+        - P2WPKH: 0 {20 byte key hash}
+        - P2WSH:  0 {32 byte script hash}
     - version
     - locktime
   - https://github.com/bitcoin/bitcoin/blob/master/src/primitives/transaction.h
