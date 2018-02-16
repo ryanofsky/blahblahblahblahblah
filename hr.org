@@ -50,8 +50,8 @@
   - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06.asciidoc#serialization-of-signatures-der
   - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06.asciidoc#signature-hash-types-sighash
   - sighash: can sign 1 input or all inputs, can sign 0, 1 or all outputs
-      - ALL NONE SINGLE: whether all outputs signed, or none, or one output (corresponding to input)
-      - ANYONECANPAY: whether all inputs signed or one input
+    - ALL NONE SINGLE: whether all outputs signed, or none, or one output (corresponding to input)
+    - ANYONECANPAY: whether all inputs signed or one input
 - Wed 14 0:30 Serialization
   - Reading and writing ints, bools, strings, maps, vectors, arbitrary objects to/from stream object
   - Layers
@@ -71,8 +71,14 @@
 - Thu 15 0:30 Pruning
   - Skip?
 - Thu 15 0:30 Payment channels
+  - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch12.asciidoc#payment-channels-and-state-channels
   - https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki#Bidirectional_Payment_Channels
+  - Commit Transaction - 2/2 multisig input
+  - Funding transaction - 2/2 multisig out
+  - Settlement Transaction
 - Fri 16 0:30 Lightning onion routing
+  - https://scalingbitcoin.org/transcript/milan2016/onion-routing-in-lightning
+  - https://lists.linuxfoundation.org/pipermail/lightning-dev/2015-December/000384.html
 - Wed 21 — John: HD Wallet
 - Wed 21 0:30 Wallet BerkeleyDB key value store, data file, environment, logs, flushing
 - Wed 21 0:10 Wallet key types: Regular, watch-only, hd
