@@ -79,6 +79,15 @@
 - Fri 16 0:30 Lightning onion routing
   - https://scalingbitcoin.org/transcript/milan2016/onion-routing-in-lightning
   - https://lists.linuxfoundation.org/pipermail/lightning-dev/2015-December/000384.html
+    - Basic spinx unidirectional secret generation, DH-like, all from one x
+    - Size p + (2r + 2), padded
+    - Replay attacks: requires nodes to remember previous secrets until key rotation
+    - Hornet extends sphinx so assymetric encryption not needed after connection setup
+    - Hornet also adds sender anonymity with rendevous protocol
+    - Hornet moves more state into packet, so nodes only required store symmetric secret
+    - Hornet bidirectional impl
+      - Sender does sphinx connection setup twice, embedds second setup results as payload in source message
+      - Intermediate nodes add Forwarding Segments with new ephemeral keys for forward secrecy
 - Wed 21 — John: HD Wallet
 - Wed 21 0:30 Wallet BerkeleyDB key value store, data file, environment, logs, flushing
 - Wed 21 0:10 Wallet key types: Regular, watch-only, hd
